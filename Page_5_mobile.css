@@ -807,7 +807,18 @@ html {
     background-repeat: no-repeat;
   }
   .group_6 {
-    padding: 0 34px;
+    /* padding: 0 34px;
+    position: absolute;
+    top: 1260px; */
+    position: absolute;
+    /* top: 142%; */
+    left: 15%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    border-radius: 5px;
   }
   .group_7 {
     padding: 0 19px;
@@ -1013,3 +1024,20 @@ html {
   .scrolling-container {
     display: inline-block;
   }
+
+  .container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%; /* Positioning in the middle */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background to make text readable */
+    padding: 10px;
+    border-radius: 5px;
+}
