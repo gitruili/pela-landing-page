@@ -566,7 +566,7 @@ body, html {
   overflow: hidden;
 }
 .group_2 {
-  padding: 541px 0 1058px;
+  padding: 541px 0 102px;
   /* overflow-x: hidden; */
 }
 .image_3 {
@@ -731,7 +731,7 @@ body, html {
 .group_6 {
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 3003px;
+  height: 3103px;
 }
 .section_2 {
   padding: 140.5px 122.5px 237px;
@@ -744,7 +744,7 @@ body, html {
   font-size: 24px;
   font-family: Patrick Hand;
   line-height: 29px;
-  word-break: break-all;
+  /* word-break: break-all; */
   width: 775px;
 }
 .image_8 {
@@ -760,7 +760,7 @@ body, html {
 }
 .section_3 {
   margin-left: 1092.5px;
-  margin-right: 9.5px;
+  margin-right: -16.5px;
   padding: 284px 0 250px;
   background-image: url('https://ide.code.fun/api/image?token=66591518602bd20012649b31&name=a70a0c4c7c710cb7ba5268cad7cda0a7.png');
   background-size: 100% 100%;
@@ -797,7 +797,7 @@ body, html {
   position: absolute;
   left: 0;
   right: 0;
-  top: 670px;
+  top: 741px;
 }
 .font_5 {
   font-size: 20px;
@@ -949,7 +949,7 @@ body, html {
   height: 368px;
 }
 .section_8 {
-  padding: 141.5px 0 717.5px;
+  padding: 105.5px 0 717.5px;
   background-color: #ecb847;
 }
 .group_11 {
@@ -968,7 +968,7 @@ body, html {
 .pos_21 {
   position: absolute;
   left: -102px;
-  bottom: -20px;
+  bottom: 50px;
 }
 .image_13 {
   width: 458px;
