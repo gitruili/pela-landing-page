@@ -1,14 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let currentView = window.innerWidth <= 768 ? 'mobile' : 'desktop';
-
-  function loadContent() {
-    const contentDiv = document.getElementById("content");
-    const newView = window.innerWidth <= 768 ? 'mobile' : 'desktop';
-
-    if (newView !== currentView) {
-      currentView = newView;
-      
-      if (newView === 'mobile') {
+    function loadContent() {
+      const contentDiv = document.getElementById("content");
+  
+      if (window.innerWidth <= 768) {
         // Load mobile HTML and CSS
         fetch('mobile.html')
           .then(response => response.text())
@@ -28,11 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
           .catch(error => console.error('Error loading desktop content:', error));
       }
     }
-  }
-
-  // Check viewport on load
-  loadContent();
-
-  // Check viewport on resize
-  window.addEventListener("resize", loadContent);
-});
+  
+    // Check viewport on load
+    loadContent();
+  
+    // Check viewport on resize
+    window.addEventListener("resize", loadContent);
+  });
+  
