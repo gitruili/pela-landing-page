@@ -24,6 +24,11 @@ html {
     box-sizing: border-box;
     flex-shrink: 0;
   }
+
+  body, html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
   
   .flex-row {
     display: flex;
