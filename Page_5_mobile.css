@@ -573,6 +573,7 @@ html {
     height: 98.8vw;
   }
   .group_2 {
+    overflow-y: hidden;
     overflow-x: hidden;
     height: 388px;
   }
