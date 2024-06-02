@@ -736,7 +736,7 @@ html {
   }
   .section_3 {
     padding: 84px 0 74px;
-    background-image: url('https://ide.code.fun/api/image?token=66591518602bd20012649b31&name=c0641bf7100c3a00e2d868992300c848.png');
+    background-image: url('assets/miss.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 219px;
@@ -778,12 +778,12 @@ html {
   .pos_9 {
     position: absolute;
     left: 22px;
-    top: 76px;
+    top: 57px;
   }
   .pos_8 {
     position: absolute;
     left: 21.5px;
-    top: 58px;
+    top: 37px;
   }
   .section_5 {
     padding: 6px 0 4px;
