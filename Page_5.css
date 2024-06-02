@@ -864,14 +864,14 @@ body, html {
   bottom: 56px;
 }
 .image_9 {
-  border-radius: 50%;
-  width: 633px;
-  height: 633px;
+  /* border-radius: 50%; */
+  width: 705px;
+  height: 632px;
 }
 .pos_25 {
   position: absolute;
   right: 7.5px;
-  top: 50%;
+  top: 42%;
   transform: translateY(-50%);
 }
 .section_7 {
